@@ -1,0 +1,36 @@
+/* Base styles */
+.card {
+    width: 100%; /* Ensures the card spans the full width */
+    max-width: 400px; /* Adjust max-width to your preference */
+    margin-top: 1.5rem; /* Adjust margin-top as needed */
+  }
+  
+  /* Image styles */
+  .card-header img {
+    width: 100%; /* Ensures the image fills its container */
+    height: auto; /* Allows the image to maintain its aspect ratio */
+  }
+  
+  /* Text styles */
+  .card-body {
+    padding: 1rem; /* Adjust padding as needed */
+  }
+  
+  /* Button styles */
+  .card-footer Button {
+    width: 50%; /* Ensures the button spans the full width */
+  }
+  
+  /* Media queries for responsiveness */
+  @media (min-width: 768px) {
+    .card {
+      max-width: 600px; /* Adjust max-width for medium-sized screens */
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .card {
+      max-width: 800px; /* Adjust max-width for large screens */
+    }
+  }
+  

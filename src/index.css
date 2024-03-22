@@ -1,0 +1,34 @@
+.loginwrapper {
+  width: 50%;
+  margin: auto;
+}
+
+.loginwrapper h2 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .loginwrapper {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.CardWrapper {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.dashcard {
+  background: rgb(140, 115, 29);
+  background: linear-gradient(90deg, rgba(140, 115, 29, 1) 0%, rgba(211, 207, 143, 1) 0%, rgba(205, 196, 148, 1) 100%);
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
