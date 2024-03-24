@@ -5,7 +5,6 @@ import useLogout from '../../hooks/useLogout'
 import ApiRoutes from '../../utils/ApiRoutes'
 import Card from 'react-bootstrap/Card'
 import AxiosService from '../../utils/AxiosService'
-// import Support from '../../utils/Support'
 import Table from 'react-bootstrap/Table'
 
 import { useNavigate } from 'react-router-dom'
